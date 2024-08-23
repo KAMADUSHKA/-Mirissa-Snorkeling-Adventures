@@ -1067,13 +1067,16 @@ section,
 .menu .menu-item {
   margin-top: 50px;
   position: relative;
+  outline: 1px solid #d3cece;
+  border-radius:2vh
 }
 
 .menu .menu-img {
-  width: 80px;
-  border-radius: 50%;
+  width: 180px;
+  /* border-radius: 50%; */
   float: left;
-  border: 8px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  margin-right: 20px;
+  border: 4px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .menu .menu-content {
@@ -1120,6 +1123,7 @@ section,
 
 .menu .menu-ingredients {
   margin-left: 95px;
+  margin-top: 10px;
   font-style: italic;
   font-size: 14px;
   font-family: var(--nav-font);
