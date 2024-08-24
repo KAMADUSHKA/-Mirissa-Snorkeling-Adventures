@@ -1088,7 +1088,7 @@ section,
 }
 
 .menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
+  /* content: "......................................................................" "...................................................................." "...................................................................."; */
   position: absolute;
   left: 20px;
   right: 0;
@@ -1665,6 +1665,18 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
+}
+
+.video-container {
+  width: 100%;
+  max-width: 560px; /* Maximum width of the video */
+  margin: 0 auto; /* Center align */
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 315px; /* Adjust as needed */
+  border: none; /* Removes default border */
 }
 
 /*--------------------------------------------------------------
