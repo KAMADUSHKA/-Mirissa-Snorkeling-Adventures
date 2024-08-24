@@ -1692,6 +1692,88 @@ section,
   padding-bottom: 20px; /* Space above the border */
 }
 
+/* Media query for tablets (between 768px and 1024px) */
+@media (max-width: 1024px) {
+  .menu .menu-img {
+    width: 100%; /* Full width for better responsiveness */
+    float: none; /* Remove float to stack the image on top */
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+  }
+
+  .menu .menu-content {
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .menu .menu-content span {
+    background: var(--background-color);
+    color: var(--accent-color);
+    position: relative;
+    z-index: 3;
+    padding: 0 10px;
+    font-weight: 600;
+  }
+  
+  .menu .menu-ingredients {
+    margin-left: 20px;
+    margin-top: 10px;
+    /* font-style: italic; */
+    font-size: 14px;
+    font-family: var(--nav-font);
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+  }
+}
+
+/* Media query for mobile devices (less than 768px) */
+@media (max-width: 768px) {
+  .menu .menu-img {
+    width: 100%; /* Full width for better responsiveness */
+    float: none; /* Remove float to stack the image on top */
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+  }
+
+  .menu-item {
+    border-bottom: 2px dashed #939c4f;
+    border-left:  3px none #939c4f;
+    margin-bottom: 20px; /* Space below the border */
+    padding-bottom: 20px; /* Space above the border */
+  }
+
+  .menu .menu-content {
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .menu .menu-content span {
+    background: var(--background-color);
+    color: var(--accent-color);
+    position: relative;
+    z-index: 3;
+    padding: 0 10px;
+    font-weight: 600;
+  }
+  
+  .menu .menu-ingredients {
+    margin-left: 20px;
+    margin-top: 10px;
+    /* font-style: italic; */
+    font-size: 14px;
+    font-family: var(--nav-font);
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+  }
+  
+}
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
