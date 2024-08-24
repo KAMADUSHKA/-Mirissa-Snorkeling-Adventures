@@ -1064,15 +1064,15 @@ section,
   margin-right: 0;
 }
 
-.menu .menu-item {
+/* .menu .menu-item {
   margin-top: 50px;
   position: relative;
   outline: 1px solid #d3cece;
   border-radius:2vh
-}
+} */
 
 .menu .menu-img {
-  width: 180px;
+  width: 300px;
   /* border-radius: 50%; */
   float: left;
   margin-right: 20px;
@@ -1080,6 +1080,7 @@ section,
 }
 
 .menu .menu-content {
+  margin-top: 20px;
   margin-left: 95px;
   overflow: hidden;
   display: flex;
@@ -1124,7 +1125,7 @@ section,
 .menu .menu-ingredients {
   margin-left: 95px;
   margin-top: 10px;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 14px;
   font-family: var(--nav-font);
   color: color-mix(in srgb, var(--default-color), transparent 50%);
@@ -1678,6 +1679,19 @@ section,
   height: 315px; /* Adjust as needed */
   border: none; /* Removes default border */
 }
+
+.menu .menu-fonts {
+  font-size:larger;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.menu-item {
+  /* border-bottom: 2px solid #939c4f; Change color as needed */
+  border-left:  3px dashed #939c4f;
+  margin-bottom: 20px; /* Space below the border */
+  padding-bottom: 20px; /* Space above the border */
+}
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
