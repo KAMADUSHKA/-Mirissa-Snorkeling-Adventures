@@ -1484,7 +1484,7 @@ section,
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: 10px;
   border-radius: 50%;
   border: 6px solid color-mix(in srgb, var(--default-color), transparent 85%);
   margin: 0 auto;
@@ -1927,4 +1927,15 @@ section,
     position: relative;
     margin-bottom: 20px;
   }
+}
+
+/*--------------------------------------------------------------
+# more edit
+--------------------------------------------------------------*/
+
+.testimonial-item img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
 }
