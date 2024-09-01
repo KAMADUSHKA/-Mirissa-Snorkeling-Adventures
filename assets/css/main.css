@@ -440,9 +440,11 @@ h6 {
     display: none;
     list-style: none;
     position: absolute;
-    inset: 60px 20px 20px 20px;
+    max-width:fit-content;
+    max-height: fit-content;
+    /* inset: 60px 20px 20px 20px; */
     padding: 10px 0;
-    margin: 0;
+    margin: 50px 20px;
     border-radius: 6px;
     background-color: var(--nav-mobile-background-color);
     overflow-y: auto;
@@ -608,6 +610,19 @@ h6 {
   font-size: 13px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer .social_links_tittle {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer .social_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
