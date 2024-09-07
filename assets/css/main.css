@@ -662,7 +662,7 @@ h6 {
   }
 
   .footer .logo_f img {
-    max-height: 100px;
+    max-height: 110px;
     margin: 0;
   }
 }
@@ -1328,6 +1328,8 @@ section,
 }
 
 .events .event-item ul {
+  margin: 0 20px;
+  margin-top: 10px;
   list-style: none;
   padding: 0;
 }
@@ -1343,6 +1345,11 @@ section,
 }
 
 .events .event-item p:last-child {
+  margin-bottom: 0;
+}
+
+.events .event-item p {
+  margin: 10px 15px;
   margin-bottom: 0;
 }
 
@@ -1366,6 +1373,15 @@ section,
   background-color: var(--accent-color);
 }
 
+@media (max-width: 768px) {
+  .events .event-item h3 {
+    display: flex;
+    justify-content: center;
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
 /*--------------------------------------------------------------
 # Book A Table Section
 --------------------------------------------------------------*/
@@ -1810,6 +1826,7 @@ section,
 }
 
 .tour .menu-item ul {
+  margin: 0 15px;
   list-style: none;
   padding: 0;
 }
