@@ -900,7 +900,7 @@ section,
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
-  animation: fadeInDown 1s both;
+  animation: fadeInDown 1s both 0.4s;
 }
 
 .hero h2 span {
@@ -914,7 +914,7 @@ section,
 }
 
 .hero p {
-  animation: fadeInDown 1s both 0.2s;
+  animation: fadeInDown 1s both 0.4s;
 }
 
 @media (min-width: 1024px) {
