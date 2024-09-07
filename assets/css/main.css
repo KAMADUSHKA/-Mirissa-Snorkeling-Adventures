@@ -285,7 +285,7 @@ h6 {
 
 .header .branding {
   min-height: 60px;
-  padding: 0 0;
+  padding: 2px 0;
 }
 
 .header .logo {
@@ -325,7 +325,6 @@ h6 {
     font-weight: 700;
     color: var(--heading-color);
   }
-  
 }
 
 /* Global Header on Scroll
