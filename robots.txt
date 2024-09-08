@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mirissasnorkelingadventures.com/sitemap.xml
