@@ -2056,3 +2056,38 @@ section,
   display: block;
   margin: 0 auto; /* Center the image horizontally */
 }
+
+/* Tour Agency */
+.travel-agency {
+  padding: 15px;
+  margin-top: 20px;
+  background: color-mix(in srgb, rgb(0, 191, 255), transparent 90%);
+  border-radius: 15px;
+  box-shadow: 0 0 6px rgba(0, 64, 255, 0.5);
+}
+
+.travel-hero {
+  background: url("../img/tour_agency/stick_fishermen_02.jpg") center center / cover no-repeat;
+  height: 70vh;
+  position: relative;
+}
+
+.travel-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* dark overlay for better text contrast */
+}
+
+.travel-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
