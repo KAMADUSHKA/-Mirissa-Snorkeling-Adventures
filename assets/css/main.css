@@ -2091,3 +2091,7 @@ section,
   height: 300px;
   object-fit: cover;
 }
+
+.img-fluid {
+  border-radius: 20px;
+}
